@@ -6,8 +6,6 @@ jobs:
     steps:
       - name: Check out repo
         uses: actions/checkout@v2
-      - name: Texify
-        uses: agurz/github-texify@1.0.1
       - name: List files
         run: |
           ls ${{ github.workspace }}
