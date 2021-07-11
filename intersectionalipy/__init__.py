@@ -1,1 +1,1 @@
-from .inersectionalipy import *
+from .intersectionalipy import *
